@@ -8,12 +8,11 @@ import lombok.*;
 
 import java.io.Serializable;
 
+@Data
 @Entity
 @Builder
-@Getter
-@Setter
-@RequiredArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Aluno implements Serializable {
 
     @Id
